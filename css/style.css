@@ -213,7 +213,6 @@ a:active {
   #about {
       /* background-image: url(../img/profile-banner.jpg);  */
       background-image: url(../img/giphy.gif); 
-
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -832,3 +831,9 @@ a:active {
 .content p {
     font-size: 1.2em;
 }
+/* Set mediA QUERY */
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
