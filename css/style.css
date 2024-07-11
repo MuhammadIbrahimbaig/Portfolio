@@ -837,3 +837,12 @@ body, html {
     overflow-x: hidden;
   }
   
+  /* /card transforming */
+  .card{
+    transition: all 0.3s;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 15px #39b3ff;
+  }
