@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        /* Style the video container */
+        .video-container {
+            max-width: 80%; /* Adjust the maximum width as needed */
+            margin: 0 auto; /* Center the container */
+            padding: 20px; /* Add padding around the video */
+            border: 2px solid #333; /* Add a border around the video */
+            border-radius: 10px; /* Round the corners of the border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+        }
+
+        /* Style the video element */
+        video {
+            display: block; /* Remove default inline spacing */
+            width: 100%; /* Make the video fill the container width */
+            height: auto; /* Maintain the aspect ratio of the video */
+            border-radius: 5px; /* Add rounded corners to the video */
+        }
+        h1{
+            text-align: center;
+           font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-info">Netflix Website</h1>
+    <div class="video-container">
+        <video controls>
+            <source src="Video/Netflix.mkv" type="video/mp4">
+           
+        </video>
+       
+    </div>
+</body>
+</html>
