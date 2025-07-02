@@ -29,26 +29,26 @@
 
 
 //my js
-var splide = new Splide('.splide-set', {
-  type: 'loop',
-  padding: '5rem',
-  autoplay: true,
-  interval: 3000,
-  pagination:false,
-  breakpoints: {
-    1024: {
-      padding: '3rem',
-      perPage: 3,
-    },
-    768: {
-      padding: '2rem',
-      perPage: 2,
-    },
-    480: {
-      padding: '1rem',
-      perPage: 1,
-    },
-  },
-});
+// var splide = new Splide('.splide-set', {
+//   type: 'loop',
+//   padding: '5rem',
+//   autoplay: true,
+//   interval: 3000,
+//   pagination:false,
+//   breakpoints: {
+//     1024: {
+//       padding: '3rem',
+//       perPage: 5,
+//     },
+//     768: {
+//       padding: '2rem',
+//       perPage: 2,
+//     },
+//     480: {
+//       padding: '1rem',
+//       perPage: 3,
+//     },
+//   },
+// });
 
-splide.mount();
+// splide.mount();
